@@ -24,7 +24,7 @@ Node* Create_Node(int Data){
 
 int main(){
 
-
+//Declearing Pointer to Store First and Last Elements of List
     Node *HeadPtr{nullptr}, *TailPtr{nullptr}, *temp{nullptr};
     
     HeadPtr = TailPtr = temp = Create_Node(10);
